@@ -1,0 +1,46 @@
+.seat-picker {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9999;
+  padding-top: 20px;
+}
+
+.seat-picker h2 {
+  font-size: 40px;
+  color: orange;
+}
+
+.seat-grid {
+  display: block;
+  margin-top: 20px;
+}
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.seat {
+  width: 50px;
+  height: 50px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: orange;
+}
